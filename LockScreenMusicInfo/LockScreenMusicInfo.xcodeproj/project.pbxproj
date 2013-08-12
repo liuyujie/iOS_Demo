@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D043AC17B8B4CB00E17205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D043AB17B8B4CB00E17205 /* UIKit.framework */; };
+		84D043AE17B8B4CB00E17205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D043AD17B8B4CB00E17205 /* Foundation.framework */; };
+		84D043B017B8B4CB00E17205 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D043AF17B8B4CB00E17205 /* CoreGraphics.framework */; };
+		84D043B617B8B4CB00E17205 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D043B417B8B4CB00E17205 /* InfoPlist.strings */; };
+		84D043B817B8B4CB00E17205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D043B717B8B4CB00E17205 /* main.m */; };
+		84D043BC17B8B4CB00E17205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D043BB17B8B4CB00E17205 /* AppDelegate.m */; };
+		84D043BE17B8B4CB00E17205 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D043BD17B8B4CB00E17205 /* Default.png */; };
+		84D043C017B8B4CB00E17205 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D043BF17B8B4CB00E17205 /* Default@2x.png */; };
+		84D043C217B8B4CB00E17205 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D043C117B8B4CB00E17205 /* Default-568h@2x.png */; };
+		84D043C517B8B4CB00E17205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D043C417B8B4CB00E17205 /* ViewController.m */; };
+		84D043C817B8B4CB00E17205 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D043C617B8B4CB00E17205 /* ViewController.xib */; };
+		84D043CF17B8B55200E17205 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D043CE17B8B55200E17205 /* MediaPlayer.framework */; };
+		84D043D117B8B55900E17205 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D043D017B8B55900E17205 /* AVFoundation.framework */; };
+		84D043D317B8BC8C00E17205 /* AlbumArt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D043D217B8BC8C00E17205 /* AlbumArt.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84D043A817B8B4CB00E17205 /* LockScreenMusicInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreenMusicInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D043AB17B8B4CB00E17205 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D043AD17B8B4CB00E17205 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D043AF17B8B4CB00E17205 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84D043B317B8B4CB00E17205 /* LockScreenMusicInfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockScreenMusicInfo-Info.plist"; sourceTree = "<group>"; };
+		84D043B517B8B4CB00E17205 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D043B717B8B4CB00E17205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D043B917B8B4CB00E17205 /* LockScreenMusicInfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockScreenMusicInfo-Prefix.pch"; sourceTree = "<group>"; };
+		84D043BA17B8B4CB00E17205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D043BB17B8B4CB00E17205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D043BD17B8B4CB00E17205 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84D043BF17B8B4CB00E17205 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84D043C117B8B4CB00E17205 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84D043C317B8B4CB00E17205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D043C417B8B4CB00E17205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D043C717B8B4CB00E17205 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84D043CE17B8B55200E17205 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		84D043D017B8B55900E17205 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84D043D217B8BC8C00E17205 /* AlbumArt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbumArt.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D043A517B8B4CB00E17205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D043D117B8B55900E17205 /* AVFoundation.framework in Frameworks */,
+				84D043CF17B8B55200E17205 /* MediaPlayer.framework in Frameworks */,
+				84D043AC17B8B4CB00E17205 /* UIKit.framework in Frameworks */,
+				84D043AE17B8B4CB00E17205 /* Foundation.framework in Frameworks */,
+				84D043B017B8B4CB00E17205 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D0439F17B8B4CB00E17205 = {
+			isa = PBXGroup;
+			children = (
+				84D043D017B8B55900E17205 /* AVFoundation.framework */,
+				84D043CE17B8B55200E17205 /* MediaPlayer.framework */,
+				84D043B117B8B4CB00E17205 /* LockScreenMusicInfo */,
+				84D043AA17B8B4CB00E17205 /* Frameworks */,
+				84D043A917B8B4CB00E17205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D043A917B8B4CB00E17205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D043A817B8B4CB00E17205 /* LockScreenMusicInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D043AA17B8B4CB00E17205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D043AB17B8B4CB00E17205 /* UIKit.framework */,
+				84D043AD17B8B4CB00E17205 /* Foundation.framework */,
+				84D043AF17B8B4CB00E17205 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D043B117B8B4CB00E17205 /* LockScreenMusicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84D043BA17B8B4CB00E17205 /* AppDelegate.h */,
+				84D043BB17B8B4CB00E17205 /* AppDelegate.m */,
+				84D043C317B8B4CB00E17205 /* ViewController.h */,
+				84D043C417B8B4CB00E17205 /* ViewController.m */,
+				84D043C617B8B4CB00E17205 /* ViewController.xib */,
+				84D043B217B8B4CB00E17205 /* Supporting Files */,
+			);
+			path = LockScreenMusicInfo;
+			sourceTree = "<group>";
+		};
+		84D043B217B8B4CB00E17205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D043D217B8BC8C00E17205 /* AlbumArt.jpg */,
+				84D043B317B8B4CB00E17205 /* LockScreenMusicInfo-Info.plist */,
+				84D043B417B8B4CB00E17205 /* InfoPlist.strings */,
+				84D043B717B8B4CB00E17205 /* main.m */,
+				84D043B917B8B4CB00E17205 /* LockScreenMusicInfo-Prefix.pch */,
+				84D043BD17B8B4CB00E17205 /* Default.png */,
+				84D043BF17B8B4CB00E17205 /* Default@2x.png */,
+				84D043C117B8B4CB00E17205 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D043A717B8B4CB00E17205 /* LockScreenMusicInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D043CB17B8B4CB00E17205 /* Build configuration list for PBXNativeTarget "LockScreenMusicInfo" */;
+			buildPhases = (
+				84D043A417B8B4CB00E17205 /* Sources */,
+				84D043A517B8B4CB00E17205 /* Frameworks */,
+				84D043A617B8B4CB00E17205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreenMusicInfo;
+			productName = LockScreenMusicInfo;
+			productReference = 84D043A817B8B4CB00E17205 /* LockScreenMusicInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D043A017B8B4CB00E17205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Tony;
+			};
+			buildConfigurationList = 84D043A317B8B4CB00E17205 /* Build configuration list for PBXProject "LockScreenMusicInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D0439F17B8B4CB00E17205;
+			productRefGroup = 84D043A917B8B4CB00E17205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D043A717B8B4CB00E17205 /* LockScreenMusicInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D043A617B8B4CB00E17205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D043B617B8B4CB00E17205 /* InfoPlist.strings in Resources */,
+				84D043BE17B8B4CB00E17205 /* Default.png in Resources */,
+				84D043C017B8B4CB00E17205 /* Default@2x.png in Resources */,
+				84D043C217B8B4CB00E17205 /* Default-568h@2x.png in Resources */,
+				84D043C817B8B4CB00E17205 /* ViewController.xib in Resources */,
+				84D043D317B8BC8C00E17205 /* AlbumArt.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D043A417B8B4CB00E17205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D043B817B8B4CB00E17205 /* main.m in Sources */,
+				84D043BC17B8B4CB00E17205 /* AppDelegate.m in Sources */,
+				84D043C517B8B4CB00E17205 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D043B417B8B4CB00E17205 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D043B517B8B4CB00E17205 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D043C617B8B4CB00E17205 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D043C717B8B4CB00E17205 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D043C917B8B4CB00E17205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D043CA17B8B4CB00E17205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D043CC17B8B4CB00E17205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockScreenMusicInfo/LockScreenMusicInfo-Prefix.pch";
+				INFOPLIST_FILE = "LockScreenMusicInfo/LockScreenMusicInfo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D043CD17B8B4CB00E17205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockScreenMusicInfo/LockScreenMusicInfo-Prefix.pch";
+				INFOPLIST_FILE = "LockScreenMusicInfo/LockScreenMusicInfo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D043A317B8B4CB00E17205 /* Build configuration list for PBXProject "LockScreenMusicInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D043C917B8B4CB00E17205 /* Debug */,
+				84D043CA17B8B4CB00E17205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D043CB17B8B4CB00E17205 /* Build configuration list for PBXNativeTarget "LockScreenMusicInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D043CC17B8B4CB00E17205 /* Debug */,
+				84D043CD17B8B4CB00E17205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D043A017B8B4CB00E17205 /* Project object */;
+}
